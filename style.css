@@ -90,10 +90,10 @@ body{
 
 .hero {
     display: flex;
-    
-    padding: 80px 140px 116px 140px;
-    
     justify-content: space-between;
+    padding: 116px 160px 116px 160px;
+    
+    
 
 
 }
