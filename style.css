@@ -92,7 +92,8 @@ body{
     display: flex;
     align-items: space-between;
     padding: 80px 140px 116px 140px;
-    gap: 190px;
+    
+    justify-content: space-between;
 
 
 }
@@ -125,6 +126,7 @@ body{
     align-items: center;
     font-family: "Raleway", sans-serif;
     padding: 50px 80px 50px 80px;
+    justify-content: center;
     
 }
 
@@ -179,6 +181,7 @@ body{
     display: flex;
     flex-direction: row;
     gap: 20px;
+    justify-content: center;
 
    
 }
@@ -195,6 +198,7 @@ body{
     max-width: 350px;
     flex: 1 1 0;
     gap: 20px;
+    justify-content: center;
     
 }
 
@@ -243,6 +247,7 @@ body{
     padding-right: 140px;
     border-radius: 24px;
     text-align: center;
+    justify-content: center;
     
 }
 .focus__content{
@@ -340,6 +345,7 @@ footer {
     padding: 100px 455px;
     text-align: center;
     align-items: center;
+    justify-content: center;
 }
 
 footer h1 {
@@ -347,12 +353,16 @@ footer h1 {
     font-family: "Raleway", sans-serif;
     font-size: 3.5rem;
     font-weight: 700;
+    text-align: center;
+    justify-content: center;
    
 }
 footer p {
     font-size: 13px;
     color: rgba(37, 36, 50, 0.5);
     margin-top: 20px;
+    text-align: center;
+    justify-content: center;
 }
 
 .footer__links {
@@ -360,7 +370,8 @@ footer p {
     flex-direction: row;
     gap: 20px;
     margin-top: 20px;
-    padding-left: 40px;
+    justify-content: center;
+    
 }
 footer a {
     color: #4d47ff98;
