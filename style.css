@@ -26,6 +26,7 @@ body{
     background-image: url('img/Hero-bg.png');
     background-size: cover;
     background-position: center;
+
     
 
 }
@@ -89,8 +90,7 @@ body{
 
 .hero {
     display: flex;
-    
-    align-items: center;
+    align-items: space-between;
     padding: 80px 140px 116px 140px;
     gap: 190px;
 
@@ -122,6 +122,7 @@ body{
     margin: 0px 160px 137px 140px;
     border-radius: 24px;
     text-align: center;
+    align-items: center;
     font-family: "Raleway", sans-serif;
     padding: 50px 80px 50px 80px;
     
@@ -161,6 +162,7 @@ body{
            margin-left: 150px;
            margin-right: 150px;
            margin-bottom: 137px;
+           align-items: center;
            
 }
 
@@ -337,6 +339,7 @@ footer {
     color: black;
     padding: 100px 455px;
     text-align: center;
+    align-items: center;
 }
 
 footer h1 {
