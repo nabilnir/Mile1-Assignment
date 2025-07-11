@@ -92,7 +92,7 @@ body{
     
     align-items: center;
     padding: 80px 140px 116px 140px;
-    row-gap: 10px;
+    gap: 190px;
 
 
 }
@@ -108,6 +108,7 @@ body{
     font-size: 18px;
     color: rgba(37, 36, 50, 0.5);
     font-weight: 500;
+    padding-right: 20px;
 }
 
 .hero img{
